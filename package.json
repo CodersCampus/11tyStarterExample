@@ -1,6 +1,6 @@
 {
-  "name": "Eleventy Starter from the Lit team",
-  "version": "1.0.5",
+  "name": "Eleventy Starter from the Lit team, modified by Pete Carapetyan",
+  "version": "1.1.0",
   "description": "11ty with an additional rollup Web Component provided externally",
   "scripts": {
     "docs": "npm run docs:clean  && npm run docs:build && npm run docs:assets && npm run docs:gen",
@@ -13,9 +13,7 @@
   },
   "keywords": [
     "web-components",
-    "lit-element",
-    "typescript",
-    "lit"
+    "11ty"
   ],
   "author": "Google LLC",
   "license": "BSD-3-Clause",
@@ -25,7 +23,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "@custom-elements-manifest/analyzer": "^0.6.3",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^5.0.2",
     "@web/dev-server": "^0.1.31",
