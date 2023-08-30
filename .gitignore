@@ -11,3 +11,5 @@ my-element.d.ts.map
 # only generated for size check
 my-element.bundled.js
 .DS_Store
+package-lock.json
+```
