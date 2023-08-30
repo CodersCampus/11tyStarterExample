@@ -1,6 +1,6 @@
 # 11ty Starter from Lit's Dev Team, Modified
 
-This project includes a web component created elsewhere, but is primarily an 11ty project.
+This project may include a web component created elsewhere, but is primarily an 11ty project.
 
 It was extracted from the lit starter project, by removing everything but the 11ty stuff.
 
@@ -21,3 +21,10 @@ To serve the site locally, run:
 ```bash
 npm run docs:serve
 ```
+
+## Companion WebCompoment Project
+
+Clone this project in a sibling directory, run `npm i` and then `./reDeployToSibling11tyProject.sh`
+
+This will create a file named `my-element.js` in the root of this folder, enabling the &lt;my-element&gt; 
+Web Component to run on selected pages
