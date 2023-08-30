@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "11ty with an additional Web Component provided externally",
   "scripts": {
-    "docs": "npm run docs:clean && mkdir _site && npm run docs:assets && npm run docs:gen",
+    "docs": "npm run docs:clean && mkdir _site && cp my-element.js _site && npm run docs:assets && npm run docs:gen",
     "docs:clean": "rimraf _site",
     "docs:gen": "eleventy --config=.eleventy.cjs",
     "docs:gen:watch": "eleventy --config=.eleventy.cjs --watch",

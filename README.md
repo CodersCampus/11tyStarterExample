@@ -28,3 +28,11 @@ Clone [this project](https://github.com/CodersCampus/WebComponentStarterExampleT
 
 This will create a file named `my-element.js` in the root of this project, enabling the &lt;my-element&gt; 
 Web Component to run on selected pages
+
+## Rollup Processes Removed
+
+Some rollup processes were removed and replaced by simpler shell commands.
+
+This was because this is a teaching app, and rollup has not been taught yet. So by making things a bit simpler, hopefully it will be more understandable to the student.
+
+Placing these rollup processes back in would be advisable on any such site that was not also a more basic teaching tool.
